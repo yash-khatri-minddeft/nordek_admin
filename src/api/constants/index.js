@@ -34,8 +34,8 @@ export const apiUrls = {
     },
     fees: {
         swap: '/api/fee/swap',
-        removeLiquidity: '/api/fee/remove-liquidity',
-        addLiquidity: '/api/fee/add-liquidity',
+        // removeLiquidity: '/api/fee/remove-liquidity',
+        // addLiquidity: '/api/fee/add-liquidity',
     },
     tokens: {
         getByAddress: '/api/tokens/{address}',

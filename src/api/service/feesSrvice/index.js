@@ -9,12 +9,6 @@ class FeesService {
     async swap(data) {
         return await this.httpService.post(apiUrls.fees.swap, data)
     }
-    async removeLiquidity(data) {
-        return await this.httpService.post(apiUrls.fees.removeLiquidity, data)
-    }
-    async addLiquidity(data) {
-        return await this.httpService.post(apiUrls.fees.addLiquidity, data)
-    }
 }
 
 export const feesService = new FeesService(httpService)

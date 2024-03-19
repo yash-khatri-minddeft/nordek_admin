@@ -10,22 +10,6 @@ export function useFees() {
             console.error(err)
         }
     }, [])
-    const setRemoveLiquidity = useCallback(async (data) => {
-        try {
-            await feesService.removeLiquidity(data)
-            return true
-        } catch (err) {
-            console.error(err)
-        }
-    }, [])
-    const setAddLiquidity = useCallback(async (data) => {
-        try {
-            await feesService.addLiquidity(data)
-            return true
-        } catch (err) {
-            console.error(err)
-        }
-    }, [])
 
-    return { setSwap, setAddLiquidity, setRemoveLiquidity }
+    return { setSwap }
 }
