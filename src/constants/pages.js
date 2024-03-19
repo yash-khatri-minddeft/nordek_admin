@@ -1,0 +1,2 @@
+export const PAGINATION_LIMIT = 8
+export const PAGINATION_LIMIT_TWELVE = 12
